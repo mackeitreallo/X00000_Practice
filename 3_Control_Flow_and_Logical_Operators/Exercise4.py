@@ -10,11 +10,11 @@ print("\nJollibee Pizza Branch Delivery, May I take your order?")
 bill = 0
 order = input("\nWould you like to place your order? Y/N: ")
 if order == "Y":
-    size = input("\nWhat is the size of the pizza you want to order? Small, Medium or Large? ")
-    if size == "Small":
+    size = input("\nWhat is the size of the pizza you want to order? S, M or L? ")
+    if size == "S":
         bill = 15
         print("\nThat will be $15.")
-    elif size == "Medium":
+    elif size == "M":
         bill = 20
         print("\nThat will be $20.")
     else:
@@ -25,9 +25,9 @@ if order == "Y":
     addon2 = input("\nWould you like to add more cheese? Y/N: ")
     
     if addon1 == "Y":
-        if size == "Small":
+        if size == "S":
             bill += 2
-        elif size == "Medium":
+        elif size == "M":
             bill += 3
         else:
             bill += 3
