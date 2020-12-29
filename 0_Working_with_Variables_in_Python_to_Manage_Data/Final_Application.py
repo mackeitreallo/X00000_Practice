@@ -1,0 +1,8 @@
+print("Training Day!")
+word = input("\nWhat is the best word you can describe your practice?\n")
+item = input("\nWhat about the best object you can compare your practice?\n")
+print("\n" + word + " " + item + " is it?")
+input("\nyes/no?: ")
+print("\nalright then")
+print("\ngoodluck!")
+print("\nGod Bless You!")
