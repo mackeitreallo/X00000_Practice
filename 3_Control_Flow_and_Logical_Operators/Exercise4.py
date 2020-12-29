@@ -37,7 +37,6 @@ if order == "Y":
     
     print(f"\nYour total order would be ${bill}.")
     checkout = print(input("Proceed to checkout? Y/N: "))
-    if checkout == "Y":
-        print("\nThank you for the purchase!")
+    print("\nThank you for the purchase!")
 else:
     print("\nAlright then! Have great day!")
