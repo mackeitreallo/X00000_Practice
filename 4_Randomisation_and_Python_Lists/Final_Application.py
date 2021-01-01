@@ -19,7 +19,7 @@ player_weapon = int(input("\nEnter 0 for Rock, 1 for paper and 2 for scissors!: 
 if player_weapon < 0 or player_weapon > 2:
     print("\nRock, Paper, Scissors Only!")
 
-#Resume Game
+#Resume Game Then!
 else:
     player = weapon[player_weapon]
 
