@@ -1,3 +1,3 @@
-rock = print("👊")
-paper = print("📄")
-scissor = print("✂️")
+rock = "👊"
+paper = "📄"
+scissor = "✂️"
