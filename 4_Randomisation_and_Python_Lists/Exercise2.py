@@ -13,5 +13,5 @@ name = candidates.split(", ")
 
 range = len(name)
 
-choice = random.randint(0, range)
+choice = random.randint(0, range -1)
 print(f"\n{name[choice]} will pay the bill. No more questions!")
