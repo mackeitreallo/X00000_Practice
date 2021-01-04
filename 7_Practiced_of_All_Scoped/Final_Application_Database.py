@@ -1,0 +1,1 @@
+Dictionary = [Day, Week, Month, Year, Tomorrow, Yesterday]
