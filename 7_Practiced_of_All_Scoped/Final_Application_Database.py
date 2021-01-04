@@ -1,1 +1,1 @@
-Dictionary = [Day, Week, Month, Year, Tomorrow, Yesterday]
+Dictionary = ['day', 'week', 'month', 'year', 'tomorrow', 'yesterday']
