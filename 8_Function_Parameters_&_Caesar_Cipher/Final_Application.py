@@ -1,16 +1,18 @@
 #Default Database
 from replit import clear
 import Final_Application_Database
-condition = ""
-control = ""
-to_be_encoded = []
-check_control = False
-check_text = False
-check_factor = False
 restart = True
 
 #Looper
 while restart == True:
+    clear()
+    condition = ""
+    control = ""
+    to_be_encoded = []
+    check_control = False
+    check_text = False
+    check_factor = False
+
 #INPUT VERIFICATION
     while check_control != True:
         control = (input("\nWhat do you want to do? 'Encode' or 'Decode'?: ")).lower()
@@ -60,9 +62,7 @@ while restart == True:
             else:
                 translated_encode += t[n]
                 output += translated_encode[n]
-        print(translate_encode)
-        print(translated_encode)
-        print(output)
+        print(f"\nYour encrypted message is: {output}")
             
     def decode(t = text, fad = Final_Application_Database, f = factor):
         translate_decode = []
@@ -81,10 +81,7 @@ while restart == True:
             else:
                 translated_decode += t[n]
                 output += translated_decode[n]
-
-        print(translate_decode)
-        print(translated_decode)
-        print(output)
+        print(f"\nYour decrypted message is: {output}")
             
     if control == "encode":
         encode()
@@ -94,4 +91,5 @@ while restart == True:
     again = input("\nDo you want to restart again? Y/N: ")
     if again == "N":
         restart = False
+        clear()
         print("\nGoodbye!")
